@@ -1,1 +1,1 @@
-rana-manish.com.np
+www.rana-manish.com.np
