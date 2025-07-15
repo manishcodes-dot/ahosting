@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Coming Soon</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      height: 100vh;
+      background: linear-gradient(white);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+    }
+
+    h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+      animation: pulse 1.8s infinite ease-in-out;
+      color: black;
+    }
+
+    p {
+      font-size: 20px;
+      color: black;
+    }
+
+    @keyframes pulse {
+      0%, 100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+      50% {
+        transform: scale(1.05);
+        opacity: 0.85;
+      }
+    }
+
+    .footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 14px;
+      color: #ccc;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 36px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Coming Soon</h1>
+  <p>Working hard on something awesome.<br>Stay tuned!</p>
+  <div class="footer">Made by Manish Rana</div>
+</body>
+</html>
